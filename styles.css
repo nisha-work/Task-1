@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar {
+    background-color: rgb(94, 33, 89);
+    overflow: hidden;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .navbar li {
+    display: inline;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 14px 20px;
+    display: block;
+  }
+  
+  .navbar a:hover {
+    background-color: #b8c91f;
+  }
+  
+  section {
+    padding: 100px;
+    height: 100vh; /* Full viewport height for each section */
+  }
+  
+  #home {
+    background-color: #f4f4f4;
+  }
+  
+  #about {
+    background-color: #ddd;
+  }
+  
+  #services {
+    background-color: #bbb;
+  }
+  
+  #contact {
+    background-color: #999;
+  }
